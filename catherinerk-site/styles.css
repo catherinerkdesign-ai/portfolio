@@ -856,3 +856,6 @@ video.shot.phone { width: auto; max-height: 34rem; justify-self: center; }
 /* Wide diagram that scrolls sideways */
 .ia-scroll { overflow-x: auto; border: var(--outline-width) solid var(--outline-subtle); border-radius: var(--radius); background: #fff; }
 .ia-scroll img { width: auto !important; max-width: none; height: clamp(14rem, 22vw, 18rem); border: 0 !important; border-radius: 0 !important; display: block; cursor: default; }
+.ios-demo { justify-items: center; }
+.ios-demo video { width: min(100%, 18rem); height: auto; border-radius: 22px; background: #000; display: block; }
+.ios-demo figcaption { text-align: center; }
